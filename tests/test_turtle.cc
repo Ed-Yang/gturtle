@@ -7,6 +7,7 @@ using ::testing::AtLeast; // #1
 TEST(PainterTest, CanDrawSomething)
 {
     MockTurtle turtle;             // #2
+
     EXPECT_CALL(turtle, PenDown()) // #3
         .Times(AtLeast(1));
 
