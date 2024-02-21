@@ -23,7 +23,7 @@ cd build
 # clear last build, do this only on needs
 rm -rf *
 cmake ..
-nmake
+make
 ```
 
 # Run
